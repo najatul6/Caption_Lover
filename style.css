@@ -1,0 +1,304 @@
+/* font{
+    font-family: 'Anek Bangla', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+} */
+
+body
+{
+    background: linear-gradient(to right, #232526, #414345);
+    background-repeat: no-repeat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img
+{
+    width: 150px;
+}
+
+.nav-item
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+.dropdown-menu .dropdown-item
+{
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: justify;
+    padding: 5px;
+    border-bottom: 2px solid rgb(69, 68, 69);
+}
+
+/* -------------Slider_Section------------------- */
+.slider
+{
+    border: 1px solid red;
+}
+
+/* -------------Body_Section------------------- */
+.body_section
+{
+    display: flex;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+/* -------------Left_Section------------------- */
+.left_side
+{
+    width: 60%;
+    box-sizing: border-box;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+
+.first_pragraph{
+    padding: 12px;
+    border-bottom: 1px solid red;
+}
+
+.first_pragraph h1
+{
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.left_side .first_pragraph p
+{
+    font-family: 'Anek Bangla', sans-serif;
+    text-align: justify;
+    word-spacing: 5px;
+}
+
+.first_pragraph h4
+{
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* -------------Qutoes_Section------------------- */
+.quotes_section
+{
+    box-sizing: border-box;
+}
+
+.quotes 
+{
+    text-align: justify;
+}
+
+.quotes h2
+{
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-bottom: 2px solid yellowgreen;
+    text-align: center;
+
+}
+
+.quotes h2 span
+{
+    border: 2px solid red;
+    width: 50px;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.quotes h2 .span1
+{
+    border: 2px solid red;
+    width: 50px;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.quotes h2 .fa-brands
+{
+    color: #3b5998;
+    margin-right: 5px;
+}
+
+.block_qutoes
+{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 90px;
+    border: 1px solid salmon;
+    border-radius: 20px 5px 20px 5px;
+    border-left: 10px solid firebrick;
+    border-right: 10px solid firebrick;
+    box-shadow: 5px 5px 15px 0px rgba(172, 166, 166, 0.75);
+}
+
+.block_qutoes p{
+    text-align: center;
+}
+
+/* ----------------Button--------------------- */
+.box 
+{
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    color: white;
+    --width: 120px;
+    --height: calc(var(--width) / 3);
+    width: var(--width);
+    height: var(--height);
+    text-align: center;
+    line-height: var(--height);
+    font-size: calc(var(--height) / 2.5);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    border: 1px solid darkgoldenrod;
+    border-radius: 2em;
+    transform: perspective(500px) rotateY(-15deg);
+    text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+.box a
+{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.box:hover
+{
+    transform: perspective(500px) rotateY(15deg);
+    text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+.box::before
+{
+
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, white, transparent);
+    left: -100%;
+    transition: 0.5s;
+}
+  
+.box:hover::before 
+{
+    left: 100%;
+}
+
+.copy_alert
+{
+    font-size: 16px;
+    margin: auto;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+/* --------X--------Button-----------X---------- */
+
+/* -------------Right_Section------------------- */
+
+.right_side
+{
+    width: 30%;
+}
+
+.trending_quotes
+{
+    box-sizing: border-box;   
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px 0px rgba(172, 166, 166, 0.75);
+    border-radius: 5px;
+}
+
+.trending_quotes h2
+{
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid thistle;
+    border-radius: 5px;
+    padding: 5px;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    
+}
+
+.trending_menu
+{
+    padding-bottom: 5px;
+}
+
+.trending_menu li
+{
+    list-style-type: none;
+}
+
+.trending_menu li a
+{
+    text-decoration: none;
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+
+}
+
+.other_post
+{
+    box-sizing: border-box;   
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px 0px rgba(172, 166, 166, 0.75);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.other_post h2
+{
+    color: #ffffff;
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid thistle;
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
